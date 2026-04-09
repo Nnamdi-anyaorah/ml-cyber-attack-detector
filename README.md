@@ -20,6 +20,26 @@ Binary classification system that detects cyber attacks in network traffic using
 - ✅ Random Forest: **84.09%**
 - ✅ Gradient Boosting: **84.92%** ⭐ Best Model
 
+## 📊 Training
+
+The models were trained using Jupyter notebooks:
+
+- `notebooks/DataPreprocessing_ModelDev.ipynb` - Main training pipeline
+- `notebooks/Data_Exploratory.ipynb` - Exploratory data analysis
+- `notebooks/Data_Preprocessing.ipynb` - Data preprocessing steps
+
+### Training Process:
+1. Load UNSW-NB15 (257K flows) and CICIDS2017 (100K flows) datasets
+2. Handle missing values and encode categorical features
+3. Scale features using StandardScaler
+4. Balance classes using SMOTE
+5. Train Random Forest (200 trees) and Gradient Boosting models
+6. Evaluate on test set and save models
+
+### Results:
+- UNSW-NB15: RF 79.78%, GB 79.69%
+- CICIDS2017: RF 84.09%, GB 84.92%
+
 ## 🔧 Technologies Used
 
 - **Python 3.13**
