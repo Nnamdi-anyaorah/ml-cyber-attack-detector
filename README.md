@@ -24,9 +24,9 @@ Binary classification system that detects cyber attacks in network traffic using
 
 The models were trained using Jupyter notebooks:
 
-- `notebooks/DataPreprocessing_ModelDev.ipynb` - Main training pipeline
-- `notebooks/Data_Exploratory.ipynb` - Exploratory data analysis
-- `notebooks/Data_Preprocessing.ipynb` - Data preprocessing steps
+- `notebook/DataPreprocessing_ModelDev.ipynb` - Main training pipeline
+- `notebook/Data_Exploratory.ipynb` - Exploratory data analysis
+- `notebook/Data_Preprocessing.ipynb` - Data preprocessing steps
 
 ### Training Process:
 1. Load UNSW-NB15 (257K flows) and CICIDS2017 (100K flows) datasets
